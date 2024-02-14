@@ -11,6 +11,8 @@ jobs:
         - sudo apt-get -y install libxml2-dev
       addons:
         apt:
-          packages: foo
+          packages: 
+          - cmake
+          - time
       script:
         - python hello_world.py
