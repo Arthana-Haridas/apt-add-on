@@ -8,7 +8,6 @@ jobs:
       dist: xenial
       before_install:
         - sudo apt-get update
-        - sudo apt-get -y install libxml2-dev
       addons:
         apt:
           packages: 
